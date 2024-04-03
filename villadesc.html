@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Villa Description</title>
+	<meta name="description" content="">
+  	<meta name="keywords" content="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style>
+        html, body {
+          position: relative;
+          height: 100%;
+        }
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:#000;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+    
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+
+        .imgcontainer{
+            overflow: auto;
+        }
+
+        .swiper-button-next, .swiper-button-prev{
+            z-index: 99999;
+        }
+      </style>
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="sectionleft">
+
+        </div>
+        <div class="sectionright">
+            <div class="userdata">
+                <i class="fa fa-users"></i> 
+                <p>Preeti Malik <a href="#" class="editprofile">(Edit Profile)</a></p>
+                <a href="index.html" class="btn">Logout</a>
+            </div>
+        </div>
+    </div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark p-0 navbarcolor navlogin">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img class="logo" src="image/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#funding-solution-nav" aria-controls="funding-solution-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="funding-solution-nav">
+                	<ul class="navbar-nav ml-auto mt-lg-0 stroke">
+                   
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-bed"></i> Hotels
+                                </a>
+                                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="home.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Search</a>
+                                      
+                                        <a class="dropdown-item" href="quotation.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Start New Quotation</a>
+                                        <a class="dropdown-item" href="hoteloffers.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Hotel Offers</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-exchange" aria-hidden="true"></i> Transfers
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="transfersearch.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Search</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i> Package
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="package.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Package Search</a>
+
+                                    <a class="dropdown-item" href="package-eventsearch.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Event Package Search</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>  Things to do/Events
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">  <i class="fa fa-circle doticon" aria-hidden="true"></i> Things to do</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-circle doticon" aria-hidden="true"></i> Events</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-circle doticon" aria-hidden="true"></i> Excursions</a>
+                                  
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="flights.html">   <i class="fa fa-plane" aria-hidden="true"></i>  Flights</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cars.html">   <i class="fa fa-car" aria-hidden="true"></i>  Cars</a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="yacht.html">   <i class="fa fa-ship" aria-hidden="true"></i>  Yachts</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="villa.html">   <i class="fa fa-home" aria-hidden="true"></i> Villas </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cruise.html"><i class="fa fa-ship" aria-hidden="true"></i> Cruise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="travelinsurance.html"> <i class="fa fa-money" aria-hidden="true"></i>
+                                    Travel Insurance</a>
+                            </li>
+        
+                        </ul>
+			</div>
+		</div>
+    </nav>
+
+    <div class="searchresult">
+        <div class="yachtresult villaresult">
+            <div class="yachtleft">
+              
+                <div class="detailsyacht" >
+                    <div class="galleryarea">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                     <img src="image/villa2.jpg"/>
+                                    </div>
+                                <div class="swiper-slide">
+                                <img src="image/villa2.jpg"/>
+                                </div>
+                                <div class="swiper-slide">
+                                <img src="image/villa2.jpg"/>
+                                </div>
+                            
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                  </div>
+                </div>
+
+              
+                
+            </div>
+            <div class="yachtright">
+                <div class="availability">
+                    <div class="availstatus">
+                        <p>Villa is available</p>
+                    </div>
+                    <div class="availdetails table-responsive">
+                        <table class="table table-sm">
+                            <tr>
+                                <td> <p class="bold">Destination:</p></td>
+                                <td> <p>Huahine Nui Marina</p></td>
+                            </tr>
+                            <tr>
+                                <td> <p class="bold">Check in date:</p></td>
+                                <td> <p>23 Sep 2020a</p></td>
+                            </tr>
+                          
+                            <tr>
+                                <td> <p class="bold">Check out date:</p></td>
+                                <td> <p>30 Sep 2020</p></td>
+                            </tr>
+                        
+                            <tr>
+                                <td> <p class="bold">Stay Duration:</p></td>
+                                <td> <p>4 Night Stay</p></td>
+                            </tr>
+                            <tr>
+                                <td> <p class="bold"> Adults:</p></td>
+                                <td> <p>4</p></td>
+                            </tr>
+                            <tr>
+                                <td> <p class="bold">Kids:</p></td>
+                                <td> <p>2</p></td>
+                            </tr>
+                            <tr>
+                                <td> <p class="bold">Rooms:</p></td>
+                                <td> <p>2</p></td>
+                            </tr>
+                        </table>
+
+                    
+                      
+                        <div class="bookarea">
+                           
+                              <a href="#" class="btn btnbook"> Reserve  </a>
+                        </div>
+                        	
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="villasection">
+                <div class="extrafacilities hoteldetails" id="cost">
+                    <div class="titles">
+                        <h5>  Description</h5>
+                    </div>
+                    <div class="dataprice">
+                         
+                            <p>
+                                    Set in New Delhi, 8.7 mi from Qutub Minar and 13 mi from Tughlaqabad Fort, 8 Mandi Hills by Vista Rooms offers accommodations with free WiFi, air conditioning and access to a garden with an outdoor swimming pool.
+
+                                    Units come with a kitchen with a dining area, and a private bathroom with free toiletries and shower.
+                                    
+                                    The villa offers a buffet or Asian breakfast.
+                                    
+                                    8 Mandi Hills by Vista Rooms offers a terrace.
+                                    
+                                    Lodhi Gardens is 14 mi from the accommodations, while Gandhi Smriti is 14 mi away. The nearest airport is Delhi International Airport, 12 mi from 8 Mandi Hills by Vista Rooms.
+                                    
+                                    We speak your language!
+                            </p>
+                    </div>   
+                </div>
+    
+                <div class="extrafacilities hoteldetails">
+                    <div class="titles">
+                        <h5> Details</h5>
+                    </div>
+                    <div class="villaprice table-responsive">
+                         <table class="table table-sm villatable">
+                            <tr>
+                                <th>Accommodation Type</th>
+                                <th>Sleeps</th>
+                                <th>Price for 4 Nights</th>
+                                <th>Your Choices </th>
+                                <th>Select a Villa</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="3" class="bigcol">
+                                       <h6>Two-Bedroom Villa</h6>
+                                       <p>Only 1 left on our site</p>
+                                       <p><span class="bold">Bedroom 1:</span> 1 queen bed </p>
+                                       <p><span class="bold">Bedroom 2:</span> 1 queen bed 
+                                            <p class="smallspan"> <span>92 m² </span> <span>Garden view</span> <span>Pool view</span> <span>Pool with a view Air conditioning</span><span>Free WiFi  </span> <span>Laptop-friendly workspace</span></p>
+                                       <p class="bigspan"> <span> <i class="fa fa-check" aria-hidden="true"></i> Free toiletries</span>  <span> <i class="fa fa-check" aria-hidden="true"></i> Shower</span>  
+                                        <span> <i class="fa fa-check" aria-hidden="true"></i> Kitchen  </span>
+                                        <span> <i class="fa fa-check" aria-hidden="true"></i> Towels</span> 
+                                         <span>  <i class="fa fa-check" aria-hidden="true"></i> Iron</span>
+                                          <span></span> <i class="fa fa-check" aria-hidden="true"></i> Shared bathroom </span>
+                                           <span> <i class="fa fa-check" aria-hidden="true"></i> Microwave</span>
+                                            <span> <i class="fa fa-check" aria-hidden="true"></i> Heating</span>  <span> <i class="fa fa-check" aria-hidden="true"></i> Kitchenware</span> </p>
+                                       <p>Prices are per villa for 4 nights</p>
+                                       <p>Included in villa price: Breakfast</p>
+                                </td>
+
+                                <td>
+                                    <p><i class="fa fa-user" aria-hidden="true"></i> * 4</p>
+                                </td>
+                                <td>
+                                        <h6> ₹ 58,000</h6>
+                                       
+                                        <p> +₹ 10,440 taxes and charges</p>
+                                </td>
+                                <td>
+                                        <p>Breakfast included in the price</p>
+                                        <p>FREE cancellation before 11:59 PM on September 26, 2020</p>
+                                </td>
+                                <td>
+                                    <button class="selbtn btn">Select</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                    <td>
+                                        <p><i class="fa fa-user" aria-hidden="true"></i> * 5</p>
+                                    </td>
+                                    <td>
+                                        <h6> ₹ 67,000</h6>
+                                        
+                                        <p> +₹ 11,440 taxes and charges</p>
+                                    </td>
+                                    <td>
+                                        <p>Breakfast included in the price</p>
+                                        <p>FREE cancellation before 11:59 PM on September 26, 2020</p>
+                                    </td>
+                                    <td>
+                                        <button class="selbtn btn">Select</button>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td>
+                                        <p><i class="fa fa-user" aria-hidden="true"></i> * 6</p>
+                                    </td>
+                                    <td>
+                                        <h6> ₹ 71,000</h6>
+                                        
+                                        <p> +₹ 12,440 taxes and charges</p>
+                                    </td>
+                                    <td>
+                                        <p>Breakfast included in the price</p>
+                                        <p>FREE cancellation before 11:59 PM on September 26, 2020</p>
+                                    </td>
+                                    <td>
+                                        <button class="selbtn btn">Select</button>
+                                    </td>
+                            </tr>
+                         </table>
+                    
+                    </div>   
+                </div>
+
+                   <div class="hoteldetails amenities">
+                <div class="titles">
+                    <h5> <i class="fa fa-list" aria-hidden="true"></i> Basic Facilities</h5>
+                </div>   
+                <div class="listamen">
+                        <ul class="listui">
+                        
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible fitness center"></span>
+                                      Wheelchair-accessible fitness center</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible meeting spaces/business center"></span>
+                                      Wheelchair-accessible meeting spaces/business center</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible on-site restaurant"></span>
+                                      Wheelchair-accessible on-site restaurant</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible lounge"></span>
+                                      Wheelchair-accessible lounge</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Bar/lounge"></span>
+                                      Bar/lounge</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="elevator"></span>
+                                      elevator</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Fitness facilities"></span>
+                                      Fitness facilities</li>
+                           
+                                <li class="width-33 btnleft mwidth"><span original-title="Free airport transportation"></span>
+                                      Free airport transportation</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="24-hour front desk"></span>
+                                      24-hour front desk</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Business center"></span>
+                                      Business center</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Porter/bellhop"></span>
+                                      Porter/bellhop</li>
+                         
+                                <li class="width-33 btnleft mwidth"><span original-title="Express check-out"></span>
+                                      Express check-out</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Dry cleaning/laundry service"></span>
+                                      Dry cleaning/laundry service</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Self parking (surcharge)"></span>
+                                      Self parking (surcharge)</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Outdoor pool"></span>
+                                      Outdoor pool</li>
+                       
+                                <li class="width-33 btnleft mwidth"><span original-title="Limo or Town Car service available"></span>
+                                      Limo or Town Car service available</li>
+                            </ul>
+                        <ul class="listui">         
+                                <li class="width-33 btnleft mwidth"><span original-title="ATM/banking"></span>
+                                      ATM/banking</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Concierge services"></span>
+                                      Concierge services</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Gift shops or newsstand"></span>
+                                      Gift shops or newsstand</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair accessible (may have limitations)"></span>
+                                      Wheelchair accessible (may have limitations)</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Conference space"></span>
+                                      Conference space</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Grocery/convenience store"></span>
+                                      Grocery/convenience store</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Meeting rooms"></span>
+                                      Meeting rooms</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Tours/ticket assistance"></span>
+                                      Tours/ticket assistance</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Electric car charging station"></span>
+                                      Electric car charging station</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Free WiFi"></span>
+                                      Free WiFi</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Free wired Internet"></span>
+                                      Free wired Internet</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Smoke-free property"></span>
+                                      Smoke-free property</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Number of coffee shops/cafes - 2"></span>
+                                      Number of coffee shops/cafes - 2</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Safe-deposit box at front desk"></span>
+                                      Safe-deposit box at front desk</li>
+                                   
+                                <li class="width-33 btnleft mwidth"><span original-title="Breakfast available (surcharge)"></span>
+                                      Breakfast available (surcharge)</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Ballroom"></span>
+                                      Ballroom</li>
+                       
+                                <li class="width-33 btnleft mwidth"><span original-title="Banquet hall"></span>
+                                      Banquet hall</li>
+                                    </ul>      
+                                    <ul  class="listui">                  
+                                <li class="width-33 btnleft mwidth"><span original-title="Reception hall"></span>
+                                      Reception hall</li>
+                            
+                                <li class="width-33 btnleft mwidth"><span original-title="Laundry facilities"></span>
+                                      Laundry facilities</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Spa tub"></span>
+                                      Spa tub</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Television in common areas"></span>
+                                      Television in common areas</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Accessible bathroom"></span>
+                                      Accessible bathroom</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="24-hour fitness facilities"></span>
+                                      24-hour fitness facilities</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Roll-in shower"></span>
+                                      Roll-in shower</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible public washroom"></span>
+                                      Wheelchair-accessible public washroom</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair accessible parking"></span>
+                                      Wheelchair accessible parking</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible concierge desk"></span>
+                                      Wheelchair-accessible concierge desk</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="In-room accessibility"></span>
+                                      In-room accessibility</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Assistive listening devices available"></span>
+                                      Assistive listening devices available</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Braille or raised signage"></span>
+                                      Braille or raised signage</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Garden"></span>
+                                      Garden</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible path to elevator"></span>
+                                      Wheelchair-accessible path to elevator</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Multilingual staff"></span>
+                                      Multilingual staff</li>
+                                
+                                <li class="width-33 btnleft mwidth"><span original-title="Wheelchair-accessible registration desk"></span>
+                                      Wheelchair-accessible registration desk</li>
+                                
+                        </ul>
+                </div>
+              
+           </div>
+              
+            </div>
+
+        </div>
+
+      
+    </div>
+
+
+    <div class="footerarea">
+        <div class="container">
+            <div class="footsection">
+                <div class="section2">
+
+                    <div class="logo">
+                        <a href="index.html">    <img src="image/logo.png" /></a>
+                    
+                    </div>
+                    <p class="footinfo">Avazzonia is an owners operated full service agency that specializes in providing our clients with the highest level of integrity with personal and professional service.</p>
+                </div>
+                <div class="section">
+                    <div class="contactinfo">
+                        <h3 class="footerhead">Contact Us</h3>
+                        
+                            <div class="socialicons">
+                                <div class="sicons"><a href=""><i class="fa fa-facebook fb" aria-hidden="true"></i></a></div>
+                                <div class="sicons"><a href=""><i class="fa fa-google gg" aria-hidden="true"></i> </a></div>
+                                <div class="sicons"><a href=""><i class="fa fa-twitter twt" aria-hidden="true"></i> </a></div>
+                            </div>
+                    
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="shortlinks">
+                        <h3 class="footerhead">Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Newsletter subscription</a></li>
+                            <li><a href="#">Testimonials  </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <div class="bottombar">
+        <div class="container">
+            <div class="bottomcontent">
+                <div class="left">
+                        <span>All Rights Reserved. YOUNGGEEKS TECHNOLOGIES © 2020 </span>
+                </div>
+                <div class="right">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  	<script type="text/javascript" src="js/popper.min.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="js/mdb.min.js"></script>
+       <script type="text/javascript" src="js/swiper.min.js"></script>
+
+<script>
+    $('.table tbody tr').click(function(event) {
+  if (event.target.type !== 'radio') {
+    $(':radio', this).trigger('click');
+  }
+});
+
+</script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+</body>
+</html>

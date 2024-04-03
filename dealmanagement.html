@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Deals and Management</title>
+	<meta name="description" content="">
+  	<meta name="keywords" content="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="sectionleft">
+
+        </div>
+        <div class="sectionright">
+            <div class="userdata">
+                <i class="fa fa-users"></i> 
+                <p>Preeti Malik <a href="#" class="editprofile">(Edit Profile)</a></p>
+                <a href="index.html" class="btn">Logout</a>
+            </div>
+        </div>
+    </div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark p-0 navbarcolor navlogin">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img class="logo" src="image/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#funding-solution-nav" aria-controls="funding-solution-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="funding-solution-nav">
+					<ul class="navbar-nav ml-auto mt-lg-0 stroke">
+                   
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-bed"></i> Hotels
+                                </a>
+                                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="home.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Search</a>
+                                        <a class="dropdown-item" href="quotation.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Start New Quotation</a>
+                                        <a class="dropdown-item" href="hoteloffers.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Hotel Offers</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-exchange" aria-hidden="true"></i> Transfers
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="transfersearch.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Search</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i> Package
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="package.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Package Search</a>
+
+                                    <a class="dropdown-item" href="package-eventsearch.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Event Package Search</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>  Things to do/Events
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">  <i class="fa fa-circle doticon" aria-hidden="true"></i> Things to do</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-circle doticon" aria-hidden="true"></i> Events</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-circle doticon" aria-hidden="true"></i> Excursions</a>
+                                  
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">   <i class="fa fa-ship" aria-hidden="true"></i>  Flights</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">   <i class="fa fa-ship" aria-hidden="true"></i>  Cars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="yacht.html">   <i class="fa fa-ship" aria-hidden="true"></i>  Yachts</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="villa.html">   <i class="fa fa-home" aria-hidden="true"></i> Villas </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cruise.html"><i class="fa fa-ship" aria-hidden="true"></i> Cruise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="travelinsurance.html"> <i class="fa fa-money" aria-hidden="true"></i>
+                                    Travel Insurance</a>
+                            </li>
+        
+                        </ul>
+			</div>
+		</div>
+    </nav>
+
+    <div class="searchresult">
+        <div class="hoteldescription pad-0">
+            
+            <div class="quoteform hotelregform dealmg">
+
+                <form action="#" class="quotationform">
+
+                        <h5 class="dealhead"> Deals Management System </h5>
+                        
+                        <div class="tabstyles">
+                            <h4 class="tabhead">Deal with Room Facilities</h4>
+                            <div class="form-row">   
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Min Stay:</label>
+                                        <div class="col-sm-8">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">No. of Extra Beds</label>
+                                        <div class="col-sm-8">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Extra Bed Charges</label>
+                                        <div class="col-sm-8">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                             
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Amenities</label>
+                                        <div class="col-sm-8 multisel">
+                                        
+                                               <select class="form-control "  id="multiple-checkboxes1" multiple="multiple">
+                                                    <option>Fitness facilities</option>
+                                                    <option>Conference space</option>
+                                                    <option>Laundry facilities  </option>
+                                                </select>
+                                               
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="tabstyles">
+                            <h4 class="tabhead">Special Discount</h4>
+                            <div class="form-row">   
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Coupon Code</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Rate %</label>
+                                        <div class="col-sm-8">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Max Uses</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                             
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Used so far</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Start Date</label>
+                                        <div class="col-sm-8">
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                             
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Expiration Date</label>
+                                        <div class="col-sm-8">
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="tabstyles">
+                            <h4 class="tabhead">Room Upgrade</h4>
+                            <div class="form-row">   
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Register for the hotel’s loyalty program</label>
+                                        <div class="col-sm-8">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="loyal" value="loyal">
+                                                    <label class="form-check-label" for="loyal">Yes</label>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Book using your Credit Card</label>
+                                        <div class="col-sm-8">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="credits" value="credits">
+                                                <label class="form-check-label" for="credits">Yes</label>
+                                            </div>
+                                       </div>
+                                    </div>
+
+                                   
+                                </div>
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12"  id="creditcards" style="display: none">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Select Credit Cards</label>
+                                        <div class="col-sm-8 multisel">
+                                        
+                                               <select class="form-control "  id="multiple-checkboxes3" multiple="multiple">
+                                                    <option>SBI</option>
+                                                    <option>HDFC</option>
+                                                    <option>SC </option>
+                                                </select>
+                                               
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">The offer is valid on all booking and stay done before certain date</label>
+                                        <div class="col-sm-8">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="valid" value="valid">
+                                                <label class="form-check-label" for="valid">Yes</label>
+                                            </div>
+                                       </div>
+                                       
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12"  id="validdates" style="display: none">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Last Date</label>
+                                        <div class="col-sm-8 multisel">
+                                            <input type="date" class="form-control">
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">The offer is valid on base room category only and subject to availability</label>
+                                        <div class="col-sm-4">
+                                                <select class="form-control">
+                                                    <option>Select Baseroom category</option>
+                                                    <option>Normal</option>
+                                                    <option>Luxury</option>
+                                                    <option>Delux </option>
+                                                </select>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="availl" value="availl">
+                                                <label class="form-check-label" for="availl">Available?</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                  
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Offer is applicable only at particular hotel</label>
+                                        <div class="col-sm-8 multisel">
+                                        
+                                               <select class="form-control "  id="multiple-checkboxes2" multiple="multiple">
+                                                    <option>SBT Hotel</option>
+                                                    <option>ABC Hotel</option>
+                                                    <option>Xyz Hotel</option>
+                                                </select>
+                                               
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-0 col-form-label"></label>
+                                        <div class="col-sm-12">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="upgrade" value="upgrade">
+                                                <label class="form-check-label" for="upgrade">To avail the upgrade, please present the booking confirmation email received from Hotel</label>
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+                               
+                        
+                               
+                            </div>
+                        </div>
+                        <div class="tabstyles">
+                            <h4 class="tabhead">Long Stay</h4>
+                            <div class="form-row">   
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-0 col-form-label"></label>
+                                        <div class="col-sm-12">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="3night" value="3night
+                                                ">
+                                                <label class="form-check-label" for="3night">The 3rd night complimentary with every two consecutive paid nights</label>
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-0 col-form-label"></label>
+                                        <div class="col-sm-12">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="redeem" value="yeslease">
+                                                <label class="form-check-label" for="redeem">Redeem 25% e-cash from your account for long stay (more than 3 night stay).</label>
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+
+                        <div class="tabstyles">
+                            <h4 class="tabhead">Rates </h4>
+                            <div class="form-row">   
+                             
+
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                        <div class="row">
+                                            <label class="col-sm-0 col-form-label"></label>
+                                            <div class="col-sm-12 multisel">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="geo2" value="geo2
+                                                    ">
+                                                    <label class="form-check-label" for="geo2">Get extra discount on Book your room starting from a particular room rates</label>
+                                                </div>
+                                           </div>
+    
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group col-lg-12 col-sm-12 col-12"  id="geoloc2" style="display: none">
+                                        <div class="row">
+                                            <label class="col-sm-4 col-form-label">Select Room Rates</label>
+                                            <div class="col-sm-4">
+                                                    <input type="text" class="form-control" placeholder="Starting Room rates" >
+                                            
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <input type="text" class="form-control" placeholder="Discount (in %)" >
+                                        </div>
+                                        </div>
+                                    </div>  
+                                 
+                                    
+                                   
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12"  id="discountextra" style="display:none">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Particular room rates</label>
+                                        <div class="col-sm-4">
+                                            
+                                                <input type="text" class="form-control" placeholder="Starting room rate" >
+                                        
+                                        </div>
+                                        <div class="col-sm-4">
+                                            
+                                                <input type="text" class="form-control" placeholder="Discount(in %)" >
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Offer is valid on stay between</label>
+                                        <div class="col-sm-4">
+                                            <input type="date" class="form-control" placeholder="">
+                                       </div>
+                                       <div class="col-sm-4">
+                                            <input type="date" class="form-control" >
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-0 col-form-label"></label>
+                                        <div class="col-sm-12 multisel">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="geo" value="geo
+                                                ">
+                                                <label class="form-check-label" for="geo">Get extra discount on booking for particular geolocation.</label>
+                                            </div>
+                                       </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12"  id="geoloc" style="display: none">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Select Location from</label>
+                                        <div class="col-sm-8 multisel">
+                                                <select class="form-control "  id="multiple-checkboxes4" multiple="multiple">
+                                                   
+                                                    <option>Canada</option>
+                                                    <option>Mumbai</option>
+                                                    <option>London</option>
+                                                </select>
+                                                
+                                        
+                                        </div>
+                                    </div>
+                             
+                                    <div class="row m-t-15">
+                                        <label class="col-sm-4 col-form-label">Select Location for</label>
+                                        <div class="col-sm-8 multisel">
+                                        
+                                                <select class="form-control "  id="multiple-checkboxes5" multiple="multiple">
+                                                   
+                                                        <option>Canada</option>
+                                                        <option>Mumbai</option>
+                                                        <option>London</option>
+                                                    </select>
+
+                                        </div>
+                                    </div>
+                                </div>  
+                             
+                                
+                               
+
+
+                                <div class="form-group col-lg-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <label class="col-sm-4 col-form-label">Rates quoted </label>
+                                        <div class="col-sm-3">
+                                            <input type="text" class="form-control" placeholder="per room">
+                                       </div>
+                                       <div class="col-sm-3">
+                                            <input type="text" class="form-control" placeholder="per night">
+                                      </div>
+                                      <div class="col-sm-2">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="discount" value="discount
+                                            ">
+                                            <label class="form-check-label" for="discount">Available</label>
+                                        </div>
+                                   </div>
+                                    </div>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                     
+                        <div class="submitbtnrow">
+                            <button class="btn btnsub">Submit</button>
+                       </div>
+                </form>
+        
+            </div>
+        </div>
+     </div>
+
+   
+    
+    <div class="footerarea">
+        <div class="container">
+            <div class="footsection">
+                <div class="section2">
+
+                    <div class="logo">
+                        <a href="index.html">    <img src="image/logo.png" /></a>
+                    
+                    </div>
+                    <p class="footinfo">Avazzonia is an owners operated full service agency that specializes in providing our clients with the highest level of integrity with personal and professional service.</p>
+                </div>
+                <div class="section">
+                    <div class="contactinfo">
+                        <h3 class="footerhead">Contact Us</h3>
+                        
+                            <div class="socialicons">
+                                <div class="sicons"><a href=""><i class="fa fa-facebook fb" aria-hidden="true"></i></a></div>
+                                <div class="sicons"><a href=""><i class="fa fa-google gg" aria-hidden="true"></i> </a></div>
+                                <div class="sicons"><a href=""><i class="fa fa-twitter twt" aria-hidden="true"></i> </a></div>
+                            </div>
+                    
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="shortlinks">
+                        <h3 class="footerhead">Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Newsletter subscription</a></li>
+                            <li><a href="#">Testimonials  </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <div class="bottombar">
+        <div class="container">
+            <div class="bottomcontent">
+                <div class="left">
+                        <span>All Rights Reserved. YOUNGGEEKS TECHNOLOGIES © 2020 </span>
+                </div>
+                <div class="right">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  	<script type="text/javascript" src="js/popper.min.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+   	<script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script>
+ 
+    <script>
+        $(document).ready(function() {
+    $('#multiple-checkboxes1').multiselect({
+        includeSelectAllOption: true,
+    });
+    });
+    </script>
+        <script>
+            $(document).ready(function() {
+        $('#multiple-checkboxes2').multiselect({
+            includeSelectAllOption: true,
+        });
+    });
+    </script>
+        <script>
+            $(document).ready(function() {
+        $('#multiple-checkboxes3').multiselect({
+            includeSelectAllOption: true,
+        });
+    });
+    </script>
+    <script>
+            $(document).ready(function() {
+        $('#multiple-checkboxes4').multiselect({
+            includeSelectAllOption: true,
+        });
+    });
+    </script>
+    <script>
+            $(document).ready(function() {
+        $('#multiple-checkboxes5').multiselect({
+            includeSelectAllOption: true,
+        });
+    });
+    </script>
+<script>
+    $(function () {
+        $("#credits").click(function () {
+            if ($(this).is(":checked")) {
+                $("#creditcards").show();
+               
+            } else {
+                $("#creditcards").hide();
+                
+            }
+        });
+    });
+</script>
+<script>
+    $(function () {
+        $("#valid").click(function () {
+            if ($(this).is(":checked")) {
+                $("#validdates").show();
+               
+            } else {
+                $("#validdates").hide();
+                
+            }
+        });
+    });
+</script>
+
+<script>
+        $(function () {
+            $("#geo").click(function () {
+                if ($(this).is(":checked")) {
+                    $("#geoloc").show();
+                   
+                } else {
+                    $("#geoloc").hide();
+                    
+                }
+            });
+        });
+    </script>
+<script>
+        $(function () {
+            $("#geo2").click(function () {
+                if ($(this).is(":checked")) {
+                    $("#geoloc2").show();
+                   
+                } else {
+                    $("#geoloc2").hide();
+                    
+                }
+            });
+        });
+    </script>
+
+
+<script>
+        $(function () {
+            $("discountpart").click(function () {
+                if ($(this).is(":checked")) {
+                    $("#discountextra").show();
+                   
+                } else {
+                    $("#discountextra").hide();
+                    
+                }
+            });
+        });
+    </script>
+</body>
+</html>

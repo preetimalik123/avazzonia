@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Yacht Description</title>
+	<meta name="description" content="">
+  	<meta name="keywords" content="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style>
+        html, body {
+          position: relative;
+          height: 100%;
+        }
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:#000;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+    
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+
+        .imgcontainer{
+            overflow: auto;
+        }
+
+        .swiper-button-next, .swiper-button-prev{
+            z-index: 99999;
+        }
+      </style>
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="sectionleft">
+
+        </div>
+        <div class="sectionright">
+            <div class="userdata">
+                <i class="fa fa-users"></i> 
+                <p>Preeti Malik <a href="#" class="editprofile">(Edit Profile)</a></p>
+                <a href="index.html" class="btn">Logout</a>
+            </div>
+        </div>
+    </div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark p-0 navbarcolor navlogin">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img class="logo" src="image/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#funding-solution-nav" aria-controls="funding-solution-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="funding-solution-nav">
+                	<ul class="navbar-nav ml-auto mt-lg-0 stroke">
+                   
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-bed"></i> Hotels
+                                </a>
+                                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="home.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Search</a>
+                                       
+                                        <a class="dropdown-item" href="quotation.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Start New Quotation</a>
+                                        <a class="dropdown-item" href="hoteloffers.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Hotel Offers</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-exchange" aria-hidden="true"></i> Transfers
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-circle doticon" aria-hidden="true"></i> Search</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i> Package
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="package.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Package Search</a>
+
+                                    <a class="dropdown-item" href="package-eventsearch.html"><i class="fa fa-circle doticon" aria-hidden="true"></i> Event Package Search</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>  Things to do/Events
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">  <i class="fa fa-circle doticon" aria-hidden="true"></i> Things to do</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-circle doticon" aria-hidden="true"></i> Events</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-circle doticon" aria-hidden="true"></i> Excursions</a>
+                                  
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="flights.html">   <i class="fa fa-plane" aria-hidden="true"></i>  Flights</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cars.html">   <i class="fa fa-car" aria-hidden="true"></i>  Cars</a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="yacht.html">   <i class="fa fa-ship" aria-hidden="true"></i>  Yachts</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="villa.html">   <i class="fa fa-home" aria-hidden="true"></i> Villas </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cruise.html"><i class="fa fa-ship" aria-hidden="true"></i> Cruise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="travelinsurance.html"> <i class="fa fa-money" aria-hidden="true"></i>
+                                    Travel Insurance</a>
+                            </li>
+        
+                        </ul>
+			</div>
+		</div>
+    </nav>
+
+    <div class="searchresult">
+        <div class="yachtresult">
+            <div class="yachtleft">
+              
+                <div class="detailsyacht" >
+                    <div class="galleryarea">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"> <img src="image/yacht.jpg"/></div>
+                                <div class="swiper-slide">
+                                <img src="image/yacht3.jpg"/>
+                                </div>
+                                <div class="swiper-slide">
+                                <img src="image/yacht4.jpg"/>
+                                </div>
+                            
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                  </div>
+
+               
+                    <div class="maindetails" id="overview">
+                        <div class="colmns">
+                            <p><span class="bold">Model of boat:</span> Bahia 46</p>
+                            <p><span class="bold">Built in:</span> 2008</p>
+                            <p><span class="bold"> No. of cabins:</span> 6</p>
+                            <p><span class="bold">No. of berth:</span> 8</p>
+                        </div>
+                        <div class="colmns">
+                            <p class="bold">Location: </p>
+                            <p>French Polynesia > Fare ></p> 
+                                <p>Huahine Nui Marina</p>
+                        </div>
+                        <div class="colmns">
+                            <p class="bold">Special Equipment: </p>
+                            <p>Battened mainsail</p>
+                            <p> <span class="bold">Deposit: </span>$ 870 </p>
+                         
+                          
+                        </div>
+                    </div>
+
+                    <div class="additiondetails mt-4" >
+                        <h6 class="bold">Additional Boat Information</h6>
+                        <p>The Bahia 46 from Fountaine Pajot is a spacious and fantastic Catamaran available for rent in French Polynesia. With 6 cabins and 8 berths, it has the ability to cater up to 10 people overnight. This makes it the perfect choice for families and large groups wishing to charter the region. Book online with Yachtico.com and set sail from null in Fare for a great sailing holiday.</p>
+                    </div>
+                </div>
+
+                <div class="extrafacilities hoteldetails" id="cost">
+                    <div class="titles">
+                        <h5> <i class="fa fa-money" aria-hidden="true"></i> Costs and Extras for Catamaran Bahia 46 in Huahine Nui Marina</h5>
+                    </div>
+                    <div class="dataprice table-responsive">
+                            <h6>YACHTICO Price Includes:</h6>
+                   
+                        <table class="table table-striped table-sm">
+                            <tbody>
+                                <tr class="">
+                                    <td class="e-name">Barbeque Grill</td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="">
+                                    <td class="e-name">Internet connection</td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="">
+                                    <td class="e-name">Outboarder</td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="">
+                                    <td class="e-name">Dinghy</td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="">
+                                    <td class="e-name">Yacht Insurance</td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                    </tr>
+                                <tr class="">
+                                    <td class="e-name">Final cleaning <span class="mandatory">Mandatory</span></td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="">
+                                    <td class="e-name">Skipper (food not included) <span class="mandatory">Mandatory</span></td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                    </tr>
+                                <tr class="">
+                                    <td class="e-name">Boat delivery <span class="mandatory">Mandatory</span></td>
+                                    <td class="e-price"> <i class="fa fa-check" aria-hidden="true"></i></td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>   
+                </div>
+
+                <div class="extrafacilities hoteldetails">
+                    <div class="titles">
+                        <h5> <i class="fa fa-money" aria-hidden="true"></i> Optional Extras (available at additional charge):</h5>
+                    </div>
+                    <div class="dataprice extrafac table-responsive">
+                         
+                    
+                        <table class="table table-sm">
+                        
+                            <tbody>
+                                <tr>
+                                    <td class="e-name">Towels:</td>
+                                    <td class="e-price"><span style="display: inline;" class="price price-usd">$ 21.13</span> / person</td> 
+                                </tr>
+                                <tr>
+                                    <td class="e-name">Provisioning:</td>
+                                    <td class="e-price"><span style="display: inline;" class="price price-usd">$ 54.70</span> / person / day</td>
+                                 </tr>
+                                <tr>
+                                    <td class="e-name">Additional Towels:</td>
+                                    <td class="e-price"><span style="display: inline;" class="price price-usd">$ 21.13</span> / person</td>
+                                 </tr>
+                                <tr>
+                                    <td class="e-name">Hostess (food not included):</td>
+                                    <td class="e-price"><span style="display: inline;" class="price price-usd">$ 205.12</span> / day</td> 
+                                </tr>
+                            </tbody>
+                                    
+                        </table>
+                    </div>   
+                </div>
+                
+                <div class="boatdetails">
+                    <div class="heading">Special Equipment & Interior </div>
+                    <div class="detailarea">
+                        <p class="headdet col100">Deck equipment:</p>
+                        <p class=" col100"> Bimini top, Swimming ladder</p>
+                        <p class="headdet col100">Navigation:</p>
+                        <p class=" col100"> AIS, Autopilot, Colour chartplotter, Echo sounder, GPS, Speedometer, Wind direction indicator, Wind speed indicator </p>
+                        <p class="headdet col100">Technology:</p>
+                        <p class=" col100"> 220V plug, Anchor windlass (electric), Electric winch, Inverter, Self-tailing winches, Solar panel, VHF radio, Watermaker (240 l/h)</p>
+                        <p class="headdet col100">Entertainment:</p>
+                        <p class=" col100">   CD Player, iPod docking station, MP3 player docking station </p>
+                        <p class="headdet col100">Interior equipment:</p>
+                        <p class=" col100">Refrigerator </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="yachtright">
+                <div class="availability">
+                    <div class="availstatus">
+                        <p>Boat is available</p>
+                    </div>
+                    <div class="availdetails">
+                        <table class="table table-sm">
+                            <tr>
+                                <td> <p class="bold">Destination:</p></td>
+                                <td> <p>Huahine Nui Marina</p></td>
+                            </tr>
+                            <tr>
+                                <td> <p class="bold">Departure date:</p></td>
+                                <td> <p>23 Sep 2020a</p></td>
+                            </tr>
+                          
+                            <tr>
+                                <td> <p class="bold">Return date:</p></td>
+                                <td> <p>30 Sep 2020</p></td>
+                            </tr>
+                        
+                            <tr>
+                                <td> <p class="bold">Duration:</p></td>
+                                <td> <p>7 days</p></td>
+                            </tr>
+                            <tr>
+                                <td> <p class="bold">Passengers:</p></td>
+                                <td> <p>4</p></td>
+                            </tr>
+                            <tr>
+                                <td> <p class="bold">Price:</p></td>
+                                <td> <p>$ 10,234</p></td>
+                            </tr>
+                        </table>
+
+                    
+                      
+                        <div class="bookarea">
+                            <button type="button" class=" pricedetailbtn" data-toggle="modal" data-target="#pricedetails">
+                                    Price Details
+                            </button>
+                              <a href="#" class="btn btnbook"> Request to Book  </a>
+                        </div>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="pricedetails" tabindex="-1" role="dialog" aria-labelledby="pricedetails" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="pricedetailslabel">The price is calculated for 7 day charter and 4 passengers</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <table class="table table-sm">
+                                        <tr>
+                                            <th>Item name</th>
+                                            <th>Unit type</th>
+                                            <th>QTY</th>
+                                            <th>Unit value</th>
+                                            <th>Amount</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Nautiner 30 S [Yacht Price incl. Taxes]</td>
+                                            <td>/charter</td>
+                                            <td>1</td>
+                                            <td>$ 2,245.06</td>
+                                            <td>$ 2,245.06</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Yacht Insurance</td>
+                                            <td>/charter</td>
+                                            <td>1</td>
+                                            <td>$ 0.00	</td>
+                                            <td>$ 0.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Final cleaning</td>
+                                            <td>/charter</td>
+                                            <td>1</td>
+                                            <td>$ 68.48</td>
+                                            <td>$ 68.48</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td colspan="1" style="font-weight: 600;">Total</td>
+                                            <td colspan="1">$ 2,313.54</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="bookarea btnright">
+                                <button type="button" class="btn btnbookmodal btnbook">Book Now</button>
+                               </div>
+                            </div>
+                            </div>
+                        </div>
+
+                       
+                        	
+                    </div>
+                </div>
+
+                <div class="boatdetails">
+                    <div class="heading">  Boat Details </div>
+                    <div class="detailarea">
+                        <p class="headdet col50">Shipyard:</p>
+                        <p class=" col50">10</p>
+                        <p class="headdet col50">Passengers / Night:</p>
+                        <p class=" col50">8</p>
+                    </div>
+                </div>
+
+                <div class="boatdetails">
+                    <div class="heading">Engine </div>
+                    <div class="detailarea">
+                        <p class="headdet col50">Engine Performance:</p>
+                        <p class=" col50"> 74</p>
+                        <p class="headdet col50">No. of motors:</p>
+                        <p class=" col50">2</p>
+                        <p class="headdet col50">Size of fuel tank:</p>
+                        <p class=" col50"> 450 L </p>
+                    
+                    </div>
+                </div>
+
+                <div class="boatdetails">
+                    <div class="heading">Technical Data </div>
+                    <div class="detailarea">
+                        <p class="headdet col50">No. of passengers:</p>
+                        <p class=" col50"> Fountaine Pajot</p>
+                        <p class="headdet col50">Type of boat:</p>
+                        <p class=" col50">Catamaran</p>
+                        <p class="headdet col50">Length:</p>
+                        <p class=" col50"> 14, 00 m</p>
+                        <p class="headdet col50">Width:</p>
+                        <p class=" col50">7, 00 m</p>
+                        <p class="headdet col50">Draught:</p>
+                        <p class=" col50"> 2, 95 m</p>
+                        <p class="headdet col50">No. of WC:</p>
+                        <p class=" col50">4</p>
+                        <p class="headdet col50">No. of water tanks:</p>
+                        <p class=" col50"> 1</p>
+                        <p class="headdet col50">Size of fresh water tank:</p>
+                        <p class=" col50">400 L</p>
+                        <p class="headdet col50">Interior shower:</p>
+                        <p class=" col50">5</p>
+                    </div>
+                </div>
+
+                <div class="boatdetails">
+                    <div class="heading">Sail Equipment </div>
+                    <div class="detailarea">
+                        <p class="headdet col50">Main sail:</p>
+                        <p class=" col50"> Battened mainsail (98 m²) </p>
+                        <p class="headdet col50">Fore sail:</p>
+                        <p class=" col50">Furling genoa (70 m²), Gennaker (100 m²) </p>
+                    </div>
+                </div>
+
+                <div class="boatdetails">
+                    <div class="heading">Miscellaneous </div>
+                    <div class="detailarea">
+                        <p class="headdet col50">Skipper included: </p>
+                        <p class=" col50">Yes</p>
+                        <p class="headdet col50">License needed:</p>
+                        <p class=" col50">No</p>
+                    </div>
+                </div>
+
+                
+
+             
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footerarea">
+        <div class="container">
+            <div class="footsection">
+                <div class="section2">
+
+                    <div class="logo">
+                        <a href="index.html">    <img src="image/logo.png" /></a>
+                    
+                    </div>
+                    <p class="footinfo">Avazzonia is an owners operated full service agency that specializes in providing our clients with the highest level of integrity with personal and professional service.</p>
+                </div>
+                <div class="section">
+                    <div class="contactinfo">
+                        <h3 class="footerhead">Contact Us</h3>
+                        
+                            <div class="socialicons">
+                                <div class="sicons"><a href=""><i class="fa fa-facebook fb" aria-hidden="true"></i></a></div>
+                                <div class="sicons"><a href=""><i class="fa fa-google gg" aria-hidden="true"></i> </a></div>
+                                <div class="sicons"><a href=""><i class="fa fa-twitter twt" aria-hidden="true"></i> </a></div>
+                            </div>
+                    
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="shortlinks">
+                        <h3 class="footerhead">Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Newsletter subscription</a></li>
+                            <li><a href="#">Testimonials  </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <div class="bottombar">
+        <div class="container">
+            <div class="bottomcontent">
+                <div class="left">
+                        <span>All Rights Reserved. YOUNGGEEKS TECHNOLOGIES © 2020 </span>
+                </div>
+                <div class="right">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  	<script type="text/javascript" src="js/popper.min.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="js/mdb.min.js"></script>
+       <script type="text/javascript" src="js/swiper.min.js"></script>
+
+<script>
+    $('.table tbody tr').click(function(event) {
+  if (event.target.type !== 'radio') {
+    $(':radio', this).trigger('click');
+  }
+});
+
+</script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+</body>
+</html>
